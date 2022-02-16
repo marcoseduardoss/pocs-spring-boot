@@ -6,8 +6,8 @@
 	<packaging>jar</packaging>
 
 	<groupId>br.me</groupId>
-	<artifactId>demo-css</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>external-css-poc</artifactId>
+	<version>0.0.1</version>
 
 
 <!-- 	<build> -->
