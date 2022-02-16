@@ -4,5 +4,5 @@
 	xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app 
 	http://xmlns.oracle.com/weblogic/weblogic-web-app/1.5/weblogic-web-app.xsd"
 	xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
-	<context-root>example3</context-root>
+	<context-root>/app-weblogic-poc</context-root>
 </weblogic-web-app>

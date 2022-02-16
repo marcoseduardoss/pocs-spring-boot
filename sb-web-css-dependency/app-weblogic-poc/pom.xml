@@ -9,8 +9,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>deploying-spring-boot-as-war-on-tomcat</name>
-	<description>Deploying Spring Boot as WAR on tomcat</description>
+	<name>deploying-spring-boot-as-war-on-weblogic</name>
+	<description>Deploying Spring Boot as WAR on Weblogic</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -61,6 +61,11 @@
 	<build>
 		<finalName>${artifactId}</finalName>
 		<plugins>
+
+			<plugin>
+			    <groupId>com.oracle.weblogic</groupId>
+			    <artifactId>weblogic-maven-plugin</artifactId>			    
+			</plugin>
 
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
